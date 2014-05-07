@@ -3,120 +3,152 @@
 	<meta charset="utf-8">
 	<meta name="description" content="Portfolio of work for Tara Z. Manicsic">
 	<title> Tara Z. Manicsic | Portfolio</title>
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
 	<nav>
-		<img src="img/burger.png" alt="menu icon">
-		<h1>Tara Z. Manicsic<h2>
-		<h1>Front End Developer
 		<ul>
+			<li><img src="img/burger.png" alt="menu icon" id="hamburger">
 			<li><a href="#webDev">WEB</a></li>
 			<li><a href="#mobile">MOBI</a></li>
 			<li><a href="#twitter">TWIT</a></li>
 			<li><a href="https://github.com/tzmanics">GIT</a></li>
 			<li><a href="#info">INFO</a></li>
 		</ul>
+		<h1>Tara Z. Manicsic</h1>
+		<h1>Front End Developer</h1>
 	</nav>
 </header>
 	<div id="content">
-		<section id="webDev" name="webDev">
-			<h2>WEBSITE DEVELOPMENT</h2>
-			<div id="WEB_BA_descrip">
-				<h3><a href="http://babyalpa.ca">Baby Alpaca's</a> Band Website</h3>
-				<h4>PROJECT DETAILS</h4>
-				<p>Lorem ipsum dolor sit amet, debitis pertinax eu eos, case perfecto cotidieque vel cu. Et vero causae eam, propriae eleifend molestiae cu sed. Usu regione argumentum ad. Et vel magna dicam, at fabellas voluptatibus interpretaris usu. Dicat graece commune in sed.</p>
-				<h4>TOOLS</h4>
-				<p>Wordpress custom theme using PHP, HTMl, JS and AJAX</p>
-			</div><!-- #WEB_BA_descrip -->
-			<div id="WEB_BA_slideshow">
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-			</div><!-- #WEB_BA_slideshow -->
-			<div id="WEB_SO_descrip">
-				<h3><a href="http://p4.nunyuh.biz">SOCI Social Blogging Site</a></h3>
-				<h4>PROJECT DETAILS</h4>
-				<p>Lorem ipsum dolor sit amet, debitis pertinax eu eos, case perfecto cotidieque vel cu. Et vero causae eam, propriae eleifend molestiae cu sed. Usu regione argumentum ad. Et vel magna dicam, at fabellas voluptatibus interpretaris usu. Dicat graece commune in sed.</p>
-				<h4>TOOLS</h4>
-				<p>PHP MVC framework, JS, CSS, HTML</p>
-			</div><!-- #WEB_SO_descrip -->
-			<div id="WEB_SO_slideshow">
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-			</div><!-- #WEB_SO_slideshow -->
-			<div id="WEB_HT_descrip">
-				<h3><a href="http://p3.nunyuh.biz">HTML DOCer</a></h3>
-				<h4>PROJECT DETAILS</h4>
-				<p>Lorem ipsum dolor sit amet, debitis pertinax eu eos, case perfecto cotidieque vel cu. Et vero causae eam, propriae eleifend molestiae cu sed. Usu regione argumentum ad. Et vel magna dicam, at fabellas voluptatibus interpretaris usu. Dicat graece commune in sed.</p>
-				<h4>TOOLS</h4>
-				<p>Wordpress custom theme using PHP, HTMl, JS and AJAX</p>
-			</div><!-- #WEB_HT_descrip -->
-			<div id="WEB_HT_slideshow">
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-			</div><!-- #WEB_HT_slideshow -->
+		<h2>WEBSITE DEVELOPMENT</h2>
+		<section id="webDev" name="webDev">			
+			<div class="project" id="BA">
+				<div class="description">
+					<h3><a href="http://babyalpa.ca">Baby Alpaca's</a> Band Website</h3>
+					<h4>PROJECT DETAILS</h4>
+					<p>Lorem ipsum dolor sit amet, debitis pertinax eu eos, case perfecto cotidieque vel cu. Et vero causae eam, propriae eleifend molestiae cu sed. Usu regione argumentum ad. Et vel magna dicam, at fabellas voluptatibus interpretaris usu. Dicat graece commune in sed.</p>
+					<h4>TOOLS</h4>
+					<p>Wordpress custom theme using PHP, HTMl, JS and AJAX</p>
+				</div><!-- .description BA -->
+				<div class="slideshow">
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+				</div><!-- .slideshow BA-->
+			</div><!-- #BA -->
+			<div class="project" id="SOCI">
+				<div class="description">
+					<h3><a href="http://p4.nunyuh.biz">SOCI Social Blogging Site</a></h3>
+					<h4>PROJECT DETAILS</h4>
+					<p>Lorem ipsum dolor sit amet, debitis pertinax eu eos, case perfecto cotidieque vel cu. Et vero causae eam, propriae eleifend molestiae cu sed. Usu regione argumentum ad. Et vel magna dicam, at fabellas voluptatibus interpretaris usu. Dicat graece commune in sed.</p>
+					<h4>TOOLS</h4>
+					<p>PHP MVC framework, JS, CSS, HTML</p>
+				</div><!-- .description SOCI -->
+				<div class="slideshow">
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+				</div><!-- .slideshow SOCI -->
+			</div><!-- #SOCI -->
+			<div class="project" id="HDOC">
+				<div class="description">
+					<h3><a href="http://p3.nunyuh.biz">HTML DOCer</a></h3>
+					<h4>PROJECT DETAILS</h4>
+					<p>Lorem ipsum dolor sit amet, debitis pertinax eu eos, case perfecto cotidieque vel cu. Et vero causae eam, propriae eleifend molestiae cu sed. Usu regione argumentum ad. Et vel magna dicam, at fabellas voluptatibus interpretaris usu. Dicat graece commune in sed.</p>
+					<h4>TOOLS</h4>
+					<p>Wordpress custom theme using PHP, HTMl, JS and AJAX</p>
+				</div><!-- .description HDOC -->
+				<div class="slideshow">
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+				</div><!-- .slideshow HDOC -->
+			</div><!-- #HDOC -->
+			<div class="project" id="GH">
+				<div class="description">
+					<h3><a href="">GitHub Repo Visualizer</a></h3>
+					<h4>PROJECT DETAILS</h4>
+					<p>Lorem ipsum dolor sit amet, debitis pertinax eu eos, case perfecto cotidieque vel cu. Et vero causae eam, propriae eleifend molestiae cu sed. Usu regione argumentum ad. Et vel magna dicam, at fabellas voluptatibus interpretaris usu. Dicat graece commune in sed.</p>
+					<h4>TOOLS</h4>
+					<p>D3</p>
+				</div><!-- .description GH -->
+				<div class="slideshow">
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+				</div><!-- .slideshow GH -->
+			</div><!-- #GH -->
 		</section><!-- #webDev -->
+		<h2>MOBILE DEVELOPMENT</h2>
 		<section id="mobile" name="mobile">
-			<h2>MOBILE DEVELOPMENT</h2>
-				<div id="MOB_LR_descrip">
-				<h3>Lovely Rita: parking maid</h3>
-				<h4>PROJECT DETAILS</h4>
-				<p>Lorem ipsum dolor sit amet, debitis pertinax eu eos, case perfecto cotidieque vel cu. Et vero causae eam, propriae eleifend molestiae cu sed. Usu regione argumentum ad. Et vel magna dicam, at fabellas voluptatibus interpretaris usu. Dicat graece commune in sed.</p>
-				<h4>TOOLS</h4>
-				<p>C++, XAML, Photoshop</p>
-			</div><!-- #MOB_LR_descrip -->
-			<div id="MOB_LR_slideshow">
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-			</div><!-- #MOB_LR__slideshow -->
-			<div id="MOB_TS_descrip">
-				<h3>The Spins</h3>
-				<h4>PROJECT DETAILS</h4>
-				<p>Lorem ipsum dolor sit amet, debitis pertinax eu eos, case perfecto cotidieque vel cu. Et vero causae eam, propriae eleifend molestiae cu sed. Usu regione argumentum ad. Et vel magna dicam, at fabellas voluptatibus interpretaris usu. Dicat graece commune in sed.</p>
-				<h4>TOOLS</h4>
-				<p>Construct II, Illustrator</p>
-			</div><!-- #MOB_TS_descrip -->
-			<div id="MOB_TS_slideshow">
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-				<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
-				<p>caption goes here</p>
-			</div><!-- #MOB_TS__slideshow -->
+			<div class="project" id="LR">
+				<div class="description">
+					<h3>Lovely Rita: parking maid</h3>
+					<h4>PROJECT DETAILS</h4>
+					<p>Lorem ipsum dolor sit amet, debitis pertinax eu eos, case perfecto cotidieque vel cu. Et vero causae eam, propriae eleifend molestiae cu sed. Usu regione argumentum ad. Et vel magna dicam, at fabellas voluptatibus interpretaris usu. Dicat graece commune in sed.</p>
+					<h4>TOOLS</h4>
+					<p>C++, XAML, Photoshop</p>
+				</div><!-- .description LR -->
+				<div class="slideshow">
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+				</div><!-- .slideshow LR -->
+			</div><!-- #LR -->
+			<div class="project" id="TS">
+				<div class="description">
+					<h3>The Spins</h3>
+					<h4>PROJECT DETAILS</h4>
+					<p>Lorem ipsum dolor sit amet, debitis pertinax eu eos, case perfecto cotidieque vel cu. Et vero causae eam, propriae eleifend molestiae cu sed. Usu regione argumentum ad. Et vel magna dicam, at fabellas voluptatibus interpretaris usu. Dicat graece commune in sed.</p>
+					<h4>TOOLS</h4>
+					<p>Construct II, Illustrator</p>
+				</div><!-- .description TS -->
+				<div class="slideshow">
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+					<img src="http://nosodc.org/site/wp-content/uploads/2011/03/img-placeholder.png">
+					<p>caption goes here</p>
+				</div><!-- .slideshow TS -->
+			</div><!-- #TS -->
 		</section><!-- #mobile -->
-		<section id="twitter" name="twitter">
-			<h2>TWITTER</h2>
-			<div id="posts">
-			</div>
-		</section><!-- #twitter -->
+		<div class="project" id="TW">
+			<section id="twitter" name="twitter">
+				<h2>TWITTER</h2>
+				<div id="posts">
+				</div>
+			</section><!-- #twitter -->
+		</div><!-- #TW -->
 	</div><!-- content -->
 	<footer id="info"  name="info">
 		<h2>INFORMATION</h2>
