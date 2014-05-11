@@ -24,6 +24,9 @@ nav h1{
 	margin: 0;
 
 }
+nav{
+	z-index: 1000;
+}
 
 h2{
 	font-size: 2em;
