@@ -22,10 +22,8 @@ nav h1{
 	font-size: 1.27em;
 	padding: 0;
 	margin: 0;
+	text-align: left;
 
-}
-nav{
-	z-index: 1000;
 }
 
 h2{
@@ -44,16 +42,13 @@ p{
 	font-size: 1.5em;
 }
 
-ul{
+nav ul{
 	list-style: none;
 	float:left;
-	width: 3.5em;
+	width: 5.5em;
 	margin: 0;
 	padding: 0;
-}
-li{
-	background-color: rgba(255,255,255,.75);
-	width: 3.4em;
+	overflow: hidden;
 }
 a, a:visited{
 	text-decoration: none;
@@ -71,7 +66,7 @@ a:hover {
 }
 
 #hamburger{
-	width: 3.5em;
+	width: 4em;
 	height: 3em;
 }
 .description{
@@ -82,6 +77,7 @@ a:hover {
 	padding: .5em;
 	position: relative;
 	background-color: rgba(255,255,255,.85);
+	z-index: 1;
 }
 .project, footer{
 	width: 100%;
@@ -89,6 +85,7 @@ a:hover {
 	margin-bottom: 1em;
 	border: 2px solid gray;
 	background-color: rgba(0,0,0,.25);
+	z-index: -1;
 }
 #BA{
 	background-image: url(../img/BA_background.png);
@@ -128,6 +125,28 @@ a:hover {
 
 #contact{
 	text-align: right;
+}
+.nextButton{
+	float: right;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 3em 0 3em 4em;
+	border-color: transparent transparent transparent #caced1;
+}
+.prevButton{
+	float: left;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 3em 4em 3em 0;
+	border-color: transparent #caced1 transparent transparent;
+}
+.nextButton, .prevButton{
+	position: relative;
+	top: -30em;
+	margin: 0 1em;
+	background-color: transparent;
 }
 .slideshow{
 	display: none;
