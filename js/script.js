@@ -116,6 +116,27 @@ function init() {
 		}
 	});
 
+	// instagram feed
+	var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'tzmPort',
+        clientId: 'eee84c858ca9456ebe21b2d4dfc8f4ea',
+        sortBy: 'random',
+        resolution: 'low_resolution'
+    });
+    feed.run();
+    
+    // adjust screen size when window resize
+    function resize(){
+    	var sections = document.getElementsByClassName('project');
+    	var height = window.innerHeight;
+    	for(var i = 0; i < sections.length; i++){
+    		sections[i].style.height = height -10 + "px";
+    		alert("change");
+    	}
+    }
+    resize();
+    window.onresize = resize();
 	
 
 
